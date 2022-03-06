@@ -24,9 +24,16 @@ h2 {
     color: #000000;
 }
 
-body {
+.bgimg {
     width: 100%;
-    /* background: #57bc9048; */
+    background-image: url(img/S1jatp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgimgpages{
+    height: 100vh;
+    width: 100vw;
     background-image: url(img/S1jatp.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,7 +53,6 @@ section {
     background: #d5d4d4;
     width: 60%;
     margin: 0 auto;
-    /* padding-bottom: 10px; */
 }
 
 section div {
@@ -80,13 +86,6 @@ section div h2 {
     text-align: center;
     padding-top: 10px;
 }
-    
-
-/* João */
-
-
-
-/* Marcone */
 
 section div #img-mar {
     width: 150px;
